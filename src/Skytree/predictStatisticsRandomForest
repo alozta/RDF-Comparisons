@@ -1,0 +1,6 @@
+Precision - 0.9130434782608695
+Recall - 0.9130434782608695
+True Positive - 0.9130434782608695
+False Positive - 0.09523809523809523
+ConfusionMatrix - 19.0  2.0   
+2.0   21.0  

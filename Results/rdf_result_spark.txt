@@ -1,0 +1,347 @@
+************
+IN LOCAL (test data):
+
+Test Error: 0.17826108998732573, Accuracy: 0.8233813240587212
+Learned classification forest model:
+TreeEnsembleModel classifier with 3 trees
+
+  Tree 0:
+    If (feature 16807 <= 0.0)
+     If (feature 21731 <= 0.0)
+      If (feature 5927 <= 0.0)
+       If (feature 17790 <= 0.0)
+        If (feature 17277 <= 0.0)
+         Predict: 1.0
+        Else (feature 17277 > 0.0)
+         Predict: 1.0
+       Else (feature 17790 > 0.0)
+        If (feature 18803 <= 0.0)
+         Predict: 1.0
+        Else (feature 18803 > 0.0)
+         Predict: 0.0
+      Else (feature 5927 > 0.0)
+       If (feature 11027 <= 0.0)
+        If (feature 8429 <= 0.0)
+         Predict: 1.0
+        Else (feature 8429 > 0.0)
+         Predict: 0.0
+       Else (feature 11027 > 0.0)
+        If (feature 16199 <= 0.0)
+         Predict: 0.0
+        Else (feature 16199 > 0.0)
+         Predict: 0.0
+     Else (feature 21731 > 0.0)
+      If (feature 15293 <= 0.0)
+       If (feature 14821 <= 0.0)
+        If (feature 20208 <= 0.0)
+         Predict: 1.0
+        Else (feature 20208 > 0.0)
+         Predict: 1.0
+       Else (feature 14821 > 0.0)
+        If (feature 3593 <= 0.0)
+         Predict: 0.0
+        Else (feature 3593 > 0.0)
+         Predict: 0.0
+      Else (feature 15293 > 0.0)
+       Predict: 0.0
+    Else (feature 16807 > 0.0)
+     If (feature 15293 <= 0.0)
+      If (feature 6030 <= 0.0)
+       If (feature 2640 <= 0.0)
+        If (feature 5807 <= 0.0)
+         Predict: 1.0
+        Else (feature 5807 > 0.0)
+         Predict: 0.0
+       Else (feature 2640 > 0.0)
+        Predict: 0.0
+      Else (feature 6030 > 0.0)
+       If (feature 12092 <= 0.0)
+        If (feature 1744 <= 0.0)
+         Predict: 0.0
+        Else (feature 1744 > 0.0)
+         Predict: 1.0
+       Else (feature 12092 > 0.0)
+        Predict: 0.0
+     Else (feature 15293 > 0.0)
+      If (feature 3863 <= 0.0)
+       If (feature 12046 <= 0.0)
+        If (feature 15469 <= 0.0)
+         Predict: 0.0
+        Else (feature 15469 > 0.0)
+         Predict: 0.0
+       Else (feature 12046 > 0.0)
+        Predict: 0.0
+      Else (feature 3863 > 0.0)
+       Predict: 0.0
+  Tree 1:
+    If (feature 20092 <= 0.0)
+     If (feature 9511 <= 0.0)
+      If (feature 1393 <= 0.0)
+       If (feature 13171 <= 0.0)
+        If (feature 9783 <= 0.0)
+         Predict: 1.0
+        Else (feature 9783 > 0.0)
+         Predict: 1.0
+       Else (feature 13171 > 0.0)
+        If (feature 19543 <= 0.0)
+         Predict: 1.0
+        Else (feature 19543 > 0.0)
+         Predict: 0.0
+      Else (feature 1393 > 0.0)
+       If (feature 6508 <= 0.0)
+        If (feature 10570 <= 0.0)
+         Predict: 1.0
+        Else (feature 10570 > 0.0)
+         Predict: 0.0
+       Else (feature 6508 > 0.0)
+        Predict: 0.0
+     Else (feature 9511 > 0.0)
+      If (feature 854 <= 0.0)
+       If (feature 18075 <= 0.0)
+        If (feature 11318 <= 0.0)
+         Predict: 1.0
+        Else (feature 11318 > 0.0)
+         Predict: 0.0
+       Else (feature 18075 > 0.0)
+        Predict: 0.0
+      Else (feature 854 > 0.0)
+       Predict: 0.0
+    Else (feature 20092 > 0.0)
+     If (feature 9535 <= 0.0)
+      If (feature 9303 <= 0.0)
+       If (feature 11684 <= 0.0)
+        If (feature 21425 <= 0.0)
+         Predict: 0.0
+        Else (feature 21425 > 0.0)
+         Predict: 0.0
+       Else (feature 11684 > 0.0)
+        Predict: 0.0
+      Else (feature 9303 > 0.0)
+       Predict: 0.0
+     Else (feature 9535 > 0.0)
+      If (feature 18189 <= 0.0)
+       If (feature 18355 <= 0.0)
+        If (feature 13460 <= 0.0)
+         Predict: 0.0
+        Else (feature 13460 > 0.0)
+         Predict: 0.0
+       Else (feature 18355 > 0.0)
+        Predict: 0.0
+      Else (feature 18189 > 0.0)
+       Predict: 0.0
+  Tree 2:
+    If (feature 16702 <= 0.0)
+     If (feature 6 <= 0.0)
+      If (feature 9996 <= 0.0)
+       If (feature 3781 <= 0.0)
+        If (feature 5843 <= 0.0)
+         Predict: 1.0
+        Else (feature 5843 > 0.0)
+         Predict: 1.0
+       Else (feature 3781 > 0.0)
+        If (feature 17333 <= 0.0)
+         Predict: 1.0
+        Else (feature 17333 > 0.0)
+         Predict: 0.0
+      Else (feature 9996 > 0.0)
+       If (feature 17543 <= 0.0)
+        If (feature 10428 <= 0.0)
+         Predict: 0.0
+        Else (feature 10428 > 0.0)
+         Predict: 0.0
+       Else (feature 17543 > 0.0)
+        Predict: 0.0
+     Else (feature 6 > 0.0)
+      If (feature 8878 <= 0.0)
+       If (feature 15787 <= 0.0)
+        If (feature 16556 <= 0.0)
+         Predict: 1.0
+        Else (feature 16556 > 0.0)
+         Predict: 0.0
+       Else (feature 15787 > 0.0)
+        If (feature 20175 <= 0.0)
+         Predict: 0.0
+        Else (feature 20175 > 0.0)
+         Predict: 0.0
+      Else (feature 8878 > 0.0)
+       If (feature 5588 <= 0.0)
+        If (feature 2798 <= 0.0)
+         Predict: 0.0
+        Else (feature 2798 > 0.0)
+         Predict: 0.0
+       Else (feature 5588 > 0.0)
+        Predict: 0.0
+    Else (feature 16702 > 0.0)
+     If (feature 3441 <= 0.0)
+      If (feature 19355 <= 0.0)
+       If (feature 13186 <= 0.0)
+        If (feature 14105 <= 0.0)
+         Predict: 1.0
+        Else (feature 14105 > 0.0)
+         Predict: 0.0
+       Else (feature 13186 > 0.0)
+        Predict: 0.0
+      Else (feature 19355 > 0.0)
+       Predict: 0.0
+     Else (feature 3441 > 0.0)
+      If (feature 11796 <= 0.0)
+       If (feature 1483 <= 0.0)
+        If (feature 10889 <= 0.0)
+         Predict: 0.0
+        Else (feature 10889 > 0.0)
+         Predict: 0.0
+       Else (feature 1483 > 0.0)
+        Predict: 0.0
+      Else (feature 11796 > 0.0)
+       Predict: 1.0
+
+
+IN LOCAL (big data test):
+
+Test Error: 0.05021680168063053Test Accuracy: 0.9497831983193694
+finished in 0,146 s
+Learned classification forest model:
+TreeEnsembleModel classifier with 3 trees
+
+  Tree 0:
+    If (feature 16807 <= 0.0)
+     If (feature 20086 <= 0.0)
+      If (feature 20371 <= 0.0)
+       If (feature 8241 <= 0.0)
+        If (feature 17701 <= 0.0)
+         Predict: 1.0
+        Else (feature 17701 > 0.0)
+         Predict: 0.0
+       Else (feature 8241 > 0.0)
+        If (feature 20725 <= 0.0)
+         Predict: 0.0
+        Else (feature 20725 > 0.0)
+         Predict: 1.0
+      Else (feature 20371 > 0.0)
+       If (feature 6520 <= 0.0)
+        If (feature 10671 <= 0.0)
+         Predict: 0.0
+        Else (feature 10671 > 0.0)
+         Predict: 0.0
+       Else (feature 6520 > 0.0)
+        Predict: 1.0
+     Else (feature 20086 > 0.0)
+      If (feature 4692 <= 0.0)
+       If (feature 3881 <= 0.0)
+        If (feature 13926 <= 0.0)
+         Predict: 1.0
+        Else (feature 13926 > 0.0)
+         Predict: 0.0
+       Else (feature 3881 > 0.0)
+        Predict: 0.0
+      Else (feature 4692 > 0.0)
+       Predict: 0.0
+    Else (feature 16807 > 0.0)
+     If (feature 16078 <= 0.0)
+      If (feature 16199 <= 0.0)
+       If (feature 18495 <= 0.0)
+        If (feature 1356 <= 0.0)
+         Predict: 1.0
+        Else (feature 1356 > 0.0)
+         Predict: 0.0
+       Else (feature 18495 > 0.0)
+        Predict: 0.0
+      Else (feature 16199 > 0.0)
+       Predict: 0.0
+     Else (feature 16078 > 0.0)
+      Predict: 0.0
+  Tree 1:
+    If (feature 13116 <= 0.0)
+     If (feature 18767 <= 0.0)
+      If (feature 16842 <= 0.0)
+       If (feature 6086 <= 0.0)
+        If (feature 10705 <= 0.0)
+         Predict: 1.0
+        Else (feature 10705 > 0.0)
+         Predict: 0.0
+       Else (feature 6086 > 0.0)
+        If (feature 6520 <= 0.0)
+         Predict: 0.0
+        Else (feature 6520 > 0.0)
+         Predict: 0.0
+      Else (feature 16842 > 0.0)
+       If (feature 7006 <= 0.0)
+        If (feature 16718 <= 0.0)
+         Predict: 1.0
+        Else (feature 16718 > 0.0)
+         Predict: 0.0
+       Else (feature 7006 > 0.0)
+        Predict: 0.0
+     Else (feature 18767 > 0.0)
+      If (feature 5309 <= 0.0)
+       If (feature 4173 <= 0.0)
+        If (feature 5843 <= 0.0)
+         Predict: 1.0
+        Else (feature 5843 > 0.0)
+         Predict: 0.0
+       Else (feature 4173 > 0.0)
+        Predict: 0.0
+      Else (feature 5309 > 0.0)
+       Predict: 0.0
+    Else (feature 13116 > 0.0)
+     If (feature 12147 <= 0.0)
+      If (feature 2222 <= 0.0)
+       If (feature 1345 <= 0.0)
+        If (feature 11544 <= 0.0)
+         Predict: 0.0
+        Else (feature 11544 > 0.0)
+         Predict: 0.0
+       Else (feature 1345 > 0.0)
+        Predict: 0.0
+      Else (feature 2222 > 0.0)
+       Predict: 0.0
+     Else (feature 12147 > 0.0)
+      Predict: 1.0
+  Tree 2:
+    If (feature 16702 <= 0.0)
+     If (feature 6 <= 0.0)
+      If (feature 9996 <= 0.0)
+       If (feature 15293 <= 0.0)
+        If (feature 20642 <= 0.0)
+         Predict: 1.0
+        Else (feature 20642 > 0.0)
+         Predict: 0.0
+       Else (feature 15293 > 0.0)
+        If (feature 7831 <= 0.0)
+         Predict: 1.0
+        Else (feature 7831 > 0.0)
+         Predict: 0.0
+      Else (feature 9996 > 0.0)
+       If (feature 6030 <= 1.0)
+        If (feature 14303 <= 0.0)
+         Predict: 0.0
+        Else (feature 14303 > 0.0)
+         Predict: 1.0
+       Else (feature 6030 > 1.0)
+        Predict: 1.0
+     Else (feature 6 > 0.0)
+      If (feature 2610 <= 0.0)
+       If (feature 5812 <= 0.0)
+        If (feature 2921 <= 0.0)
+         Predict: 1.0
+        Else (feature 2921 > 0.0)
+         Predict: 0.0
+       Else (feature 5812 > 0.0)
+        Predict: 0.0
+      Else (feature 2610 > 0.0)
+       Predict: 0.0
+    Else (feature 16702 > 0.0)
+     If (feature 5843 <= 0.0)
+      If (feature 3155 <= 0.0)
+       If (feature 21733 <= 0.0)
+        If (feature 5927 <= 0.0)
+         Predict: 1.0
+        Else (feature 5927 > 0.0)
+         Predict: 0.0
+       Else (feature 21733 > 0.0)
+        Predict: 0.0
+      Else (feature 3155 > 0.0)
+       Predict: 0.0
+     Else (feature 5843 > 0.0)
+      Predict: 0.0
+***************
